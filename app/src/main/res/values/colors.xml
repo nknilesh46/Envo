@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="green">#2ef034</color>
+    <color name="yellow">#eba834</color>
+    <color name="red">#eb343d</color>
+    <color name="white">#ffffff</color>
+    <color name="pink">#FF0040</color>
+
+    <color name="groupChatDateText">#ffffff</color>
+    <color name="groupChatTextMe">#ffffff</color>
+    <color name="groupChatDateBackground">#C0C0C0</color>
+    <color name="groupChatBubbleMe">#774df2</color>
+    <color name="groupChatBubbleOther">#eef1f6</color>
+    <color name="groupChatTextOther">#000000</color>
+    <color name="btn_send_disabled">#8e8e8e</color>
+    <color name="btn_send">#774df2</color>
+    <color name="grey_100">#F5F5F5</color>
+</resources>

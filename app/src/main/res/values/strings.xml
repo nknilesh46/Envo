@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Envo</string>
+    <string name="sing_out">Sign Out</string>
+    <string name="admin_mode">Goto Admin Mode</string>
+
+    <string name="login_success">login success</string>
+    <string name="login">LOGIN</string>
+    <string name="Username">Email</string>
+    <string name="Password">Password</string>
+    <string name="forgot_your_password">Forgot your password ?</string>
+    <string name="go">GO</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="next">NEXT</string>
+
+
+    <!-- Strings related to register activity -->
+    <string name="register">REGISTER</string>
+    <string name="register2">ADD MORE DETAILS</string>
+    <string name="hint_displayname">Enter a new name</string>
+    <string name="hint_email_reset">Enter your email</string>
+    <string name="DisplayName">Display Name</string>
+    <string name="number">WhatsApp Number</string>
+    <string name="submit">SUBMIT</string>
+
+    <!-- Strings related to SelectEnv activity -->
+    <string name="goto_t6">"Goto t6"</string>
+    <string name="goto_t13">"Goto t13"</string>
+    <string name="logged_in_as">Logged In As</string>
+
+    <!-- Strings related to SpecificEnv activity -->
+    <string name="working"> working: %1d</string>
+    <string name="workingwithDep"> workingwithDep: %1d</string>
+    <string name="workingwithHugeDep"> workingwithHugeDep: %1d</string>
+    <string name="active_users">Active Users</string>
+    <string name="my_profile">My Profile</string>
+    <string name="hint_number">Enter new number</string>
+    <string name="loading">Loading...</string>
+    <string name="resetmyaccount">Reset My Account</string>
+    <string name="regular_chat">Regular Chat</string>
+</resources>

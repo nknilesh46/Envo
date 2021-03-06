@@ -1,0 +1,268 @@
+<androidx.percentlayout.widget.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/profile"
+        android:background="@color/grey_100"
+        app:layout_aspectRatio="150%"
+        app:layout_widthPercent="100%"
+        >
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_avatar"
+                android:onClick="avatarOnClick"
+                android:layout_gravity="center"
+                android:layout_width="104dp"
+                android:layout_height="104dp"
+                android:src="@drawable/default_avata"
+                android:background="#00000000"/>
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="24sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="32dp"
+                android:text="DisplayName"
+                android:id="@+id/tv_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:paddingBottom="16dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="16dp"
+        android:id="@+id/email"
+        android:onClick="editMailClick"
+        android:layout_width="match_parent"
+        android:background="@android:color/background_light"
+        android:layout_height="72dp"
+        android:layout_below="@+id/profile"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/activity_main">
+
+        <ImageView
+            android:id="@+id/email_img_icon"
+            android:src="@mipmap/ic_email"
+            android:layout_alignParentLeft="true"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/email_tv_title"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_toRightOf="@+id/email_img_icon"
+            android:text="@string/Username"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/email_tv_detail"
+            android:textSize="14sp"
+            android:layout_below="@+id/email_tv_title"
+            android:layout_alignLeft="@+id/email_tv_title"
+            android:layout_marginRight="16dp"
+            android:text="@string/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:paddingBottom="16dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="16dp"
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:background="@android:color/background_light"
+        android:layout_height="72dp"
+        android:layout_below="@+id/email"
+        android:onClick="nameOnClick"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/activity_main">
+
+        <ImageView
+            android:id="@+id/name_img_icon"
+            android:src="@mipmap/ic_account_box"
+            android:layout_alignParentLeft="true"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/name_tv_title"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_toRightOf="@+id/name_img_icon"
+            android:text="@string/DisplayName"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/name_tv_detail"
+            android:textSize="14sp"
+            android:layout_below="@+id/name_tv_title"
+            android:layout_alignLeft="@+id/name_tv_title"
+            android:layout_marginRight="16dp"
+            android:text="@string/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:paddingBottom="16dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="16dp"
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:background="@android:color/background_light"
+        android:layout_height="72dp"
+        android:layout_below="@+id/name"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/activity_main"
+        android:onClick="numberOnClick">
+
+        <ImageView
+            android:id="@+id/number_img_icon"
+            android:src="@drawable/number"
+            android:layout_alignParentLeft="true"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/number_tv_title"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_toRightOf="@+id/number_img_icon"
+            android:text="@string/number"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/number_tv_detail"
+            android:textSize="14sp"
+            android:layout_below="@+id/number_tv_title"
+            android:layout_alignLeft="@+id/number_tv_title"
+            android:layout_marginRight="16dp"
+            android:text="@string/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:paddingBottom="16dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="16dp"
+        android:id="@+id/reset"
+        android:onClick="resetOnClick"
+        android:layout_width="match_parent"
+        android:background="@android:color/background_light"
+        android:layout_height="72dp"
+        android:layout_below="@+id/number"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/activity_main">
+
+    <ImageView
+        android:id="@+id/reset_img_icon"
+        android:src="@mipmap/ic_restore"
+        android:layout_alignParentLeft="true"
+        android:layout_width="40dp"
+        android:onClick="resetOnClick"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/reset_tv"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_toRightOf="@+id/reset_img_icon"
+        android:text="@string/resetmyaccount"
+        android:onClick="resetOnClick"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:paddingBottom="16dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="16dp"
+        android:id="@+id/signout"
+        android:onClick="signoutOnClick"
+        android:layout_width="match_parent"
+        android:background="@android:color/background_light"
+        android:layout_height="72dp"
+        android:layout_below="@+id/reset"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/activity_main">
+
+        <ImageView
+            android:id="@+id/signout_img_icon"
+            android:src="@mipmap/ic_power_settings"
+            android:layout_alignParentLeft="true"
+            android:layout_width="40dp"
+            android:onClick="signoutOnClick"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/signout_tv"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_toRightOf="@+id/signout_img_icon"
+            android:text="@string/sing_out"
+            android:onClick="signoutOnClick"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="match_parent"
+            android:clickable="true"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <ir.alirezabdn.wp7progress.WP7ProgressBar
+        android:id="@+id/wp7progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:visibility="visible"
+        app:animationDuration="2300"
+        app:indicatorColor="@color/pink"
+        app:indicatorHeight="7"
+        app:indicatorRadius="5"
+        app:interval="100"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        />
+</androidx.percentlayout.widget.PercentRelativeLayout>
+

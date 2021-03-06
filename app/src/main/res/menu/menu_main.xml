@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.tty.MainActivity">
+
+    <item
+        android:id="@+id/ibutton"
+        android:title="Info"
+        app:showAsAction="never"
+        android:icon="@mipmap/ibutton"/>
+
+    <item
+        android:id="@+id/regular_chat"
+        android:orderInCategory="100"
+        android:title="@string/regular_chat"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/my_profile"
+        android:orderInCategory="100"
+        android:title="@string/my_profile"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_admin"
+        android:orderInCategory="100"
+        android:title="@string/admin_mode"
+        app:showAsAction="never" />
+
+</menu>

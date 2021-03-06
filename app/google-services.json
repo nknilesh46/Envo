@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "596465185685",
+    "firebase_url": "https://dwd1-d3d3c.firebaseio.com",
+    "project_id": "dwd1-d3d3c",
+    "storage_bucket": "dwd1-d3d3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596465185685:android:30d3cbd965abc70129bc9c",
+        "android_client_info": {
+          "package_name": "academy.learnprogramming"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596465185685-8tj1feum3qbf505ujsngkuanlknbmgir.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqXSKZEx6LuqXi-QF4IUYFgZapXHmckd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596465185685-8tj1feum3qbf505ujsngkuanlknbmgir.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596465185685:android:448805e05ef6c8e429bc9c",
+        "android_client_info": {
+          "package_name": "com.academy.envy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596465185685-8tj1feum3qbf505ujsngkuanlknbmgir.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqXSKZEx6LuqXi-QF4IUYFgZapXHmckd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596465185685-8tj1feum3qbf505ujsngkuanlknbmgir.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596465185685:android:e0c96a8824893b1229bc9c",
+        "android_client_info": {
+          "package_name": "com.academy.learnprogramming"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596465185685-8tj1feum3qbf505ujsngkuanlknbmgir.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqXSKZEx6LuqXi-QF4IUYFgZapXHmckd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596465185685-8tj1feum3qbf505ujsngkuanlknbmgir.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
